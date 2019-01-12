@@ -2,25 +2,6 @@ const mongoose = require('mongoose')
 const utils = require('../modules/utils')
 
 module.exports = async client => {
-  //start of console messages
-client.on('ready', () => {
-  setInterval(async ()=>{
-      
-      let textList = ['How to Manage CFCC','lurking','Learning']
-      var text = textList[Math.floor(Math.random() * textList.length)];
-      client.user.setActivity(text , { type: 'WATCHING' })
-  },60000) // milliseconds
-});
-  
-client.on('ready', () => {
-// List servers the bot is connected to
-  console.log("Servers:")
-    client.guilds.forEach((guild) => {
-    console.log(" - " + guild.name)
-  })
-
-})  
-//end of console messages
   await client.wait(1000)
 
   client.appInfo = await client.fetchApplication()
