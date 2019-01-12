@@ -1,7 +1,7 @@
 const config = {
   useNewRelic: true,
   ownerID: process.env.ownerID || '392082408050130945',
-  TOKEN: process.env.TOKEN || 'BOT_TOKEN',
+  TOKEN: process.env.TOKEN || 'process.env.BOT_TOKEN',
   MONGODB_URI: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/SHIVA',
   dashboard: {
     oauthSecret: 'OAUTH SECRET',
