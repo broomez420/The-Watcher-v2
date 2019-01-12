@@ -1,5 +1,5 @@
 const config = {
-  useNewRelic: false,
+  useNewRelic: true,
   ownerID: process.env.ownerID || '392082408050130945',
   TOKEN: process.env.TOKEN || 'process.env.BOT_TOKEN',
   MONGODB_URI: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/SHIVA',
@@ -12,8 +12,8 @@ const config = {
     fullURL: 'http://localhost:9865'
   },
   defaultSettings: {
-    prefix: '!',
-    logChannel: 'logs',
+    prefix: '/',
+    logChannel: 'message_log',
     modRole: 'Moderator',
     adminRole: 'Administrator',
     systemNotice: 'true',
