@@ -1,10 +1,10 @@
 const config = {
   useNewRelic: false,
   ownerID: process.env.ownerID || '392082408050130945',
-  TOKEN: process.env.TOKEN || 'process.env.BOT.TOKEN',
+  TOKEN: process.env.TOKEN || 'process.env.BOT_TOKEN',
   MONGODB_URI: process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/SHIVA',
   dashboard: {
-    oauthSecret: '1xdMUsk01vc_Zyl7mgzgE3Ns06EHLbsE',
+    oauthSecret: 'SECRET',
     callbackURL: 'http://localhost:8080/callback',
     sessionSecret: 'SUPERSECRET',
     domain: 'localhost',
