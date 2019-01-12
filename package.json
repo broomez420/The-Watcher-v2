@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/broomez420/The-Watcher"
+    "url": "git+https://github.com/broomez420/The-Watcher-v2"
   },
   "keywords": [
     "discord.js",
@@ -67,10 +67,10 @@
     "discord",
     "bot"
   ],
-  "author": "Puyodead1",
+  "author": "broomez420",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/broomez420/The-Watcher/issues"
+    "url": "https://github.com/broomez420/The-Watcher-v2/issues"
   },
-  "homepage": "https://github.com/broomez420/The-Watcher#readme"
+  "homepage": "https://github.com/broomez420/The-Watcher-v2#readme"
 }
